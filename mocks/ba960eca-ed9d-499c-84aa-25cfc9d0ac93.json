@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "id": "72fb5c3e-c71e-42ee-b9fd-d8fe683ff7d8",
+      "type": "typography",
+      "default": "Анкета",
+      "variation": "h1"
+    }
+  ],
+  [
+    {
+      "id": "fd98bcb7-4eb8-4eae-9c5f-b7c7ac80a6e6",
+      "type": "typography",
+      "default": "Описание для чего нужна эта анкета.",
+      "variation": "body1"
+    }
+  ],
+  [
+    {
+      "id": "ddd0eb90-6f1c-421e-9264-d81aa2be6fe5",
+      "label": "Имя",
+      "type": "input",
+      "variation": "text",
+      "name": "name",
+      "multiple": false,
+      "description": "",
+      "default": "",
+      "placeholder": "Имя",
+      "validation": {
+        "type": "string",
+        "min": 3,
+        "max": 100
+      }
+    }
+  ],
+  [
+    {
+      "id": "5ec1d482-cf70-4ce1-b5a2-9daefc76abd5",
+      "label": "Возраст",
+      "type": "input",
+      "variation": "number",
+      "name": "age",
+      "multiple": false,
+      "description": "",
+      "default": 1,
+      "placeholder": "",
+      "validation": {
+        "type": "number",
+        "min": 1,
+        "max": 100
+      }
+    }
+  ],
+  [
+    {
+      "id": "a91d051d-f076-4388-9d15-9364131be988",
+      "type": "button",
+      "default": "Отправить",
+      "variation": "submit"
+    }
+  ]
+]

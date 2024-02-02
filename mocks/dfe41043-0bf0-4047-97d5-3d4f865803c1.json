@@ -1,0 +1,36 @@
+[
+  [
+    {
+      "id": "72fb5c3e-c71e-42ee-b9fd-d8fe683ff7d8",
+      "type": "typography",
+      "default": "Другая анкета",
+      "variation": "h1"
+    }
+  ],
+  [
+    {
+      "id": "ddd0eb90-6f1c-421e-9264-d81aa2be6fe5",
+      "label": "Другое Имя",
+      "type": "input",
+      "variation": "text",
+      "name": "name",
+      "multiple": false,
+      "description": "",
+      "default": "",
+      "placeholder": "Другое имя",
+      "validation": {
+        "type": "string",
+        "min": 3,
+        "max": 100
+      }
+    }
+  ],
+  [
+    {
+      "id": "a91d051d-f076-4388-9d15-9364131be988",
+      "type": "button",
+      "default": "Отправить другое...",
+      "variation": "submit"
+    }
+  ]
+]
